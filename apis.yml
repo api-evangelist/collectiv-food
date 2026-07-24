@@ -1,8 +1,25 @@
 aid: collectiv-food
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/collectiv-food.png
 name: Collectiv Food
-description: 'Collectiv Food is a company surfaced as a portfolio company of partech and added to the
-  API Evangelist network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Collectiv Food is a next-generation B2B food wholesaler serving professional
+  kitchens across the UK and France. Launched in London in 2022, it combines collective
+  buying power, consolidated deliveries, and direct sourcing through a shortened, patented
+  supply-chain model to supply restaurants, hotels, and caterers with meat, fish, plant-based
+  proteins, dairy, produce, dry and frozen goods, and prepared items. The company emphasizes
+  traceability, responsible sourcing, and sustainability, and is B-Corp certified with an
+  EcoVadis Gold rating. It was surfaced as a portfolio company of Partech and added to the
+  API Evangelist network for enrichment; no public API or developer portal is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/collectiv-food/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Applicative Saas
+- Food
+- Food Wholesale
+- Food Distribution
+- Supply Chain
+- Foodtech
+- Sustainability
+- B2B
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://collectivfood.com/
+- type: Support
+  url: https://collectivfood.com/contact
+- type: TermsOfService
+  url: https://collectivfood.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://collectivfood.com/privacy-policy
+- type: DomainSecurity
+  url: security/collectiv-food-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

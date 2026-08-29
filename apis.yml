@@ -32,6 +32,9 @@ description: 'Collectiv Food is a next-generation B2B food wholesaler serving pr
   EcoVadis Gold rating. It was surfaced as a portfolio company of Partech and added to the
   API Evangelist network for enrichment; no public API or developer portal is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/collectiv-food/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It was surfaced as a portfolio company of Partech and added to the API Evangelist network for enrichment; no public API or developer portal is currently published."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
